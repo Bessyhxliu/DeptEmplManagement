@@ -1,22 +1,25 @@
-Here is Spring project for department and employee management.
+Spring Project for department and employee management.
 ==========================================
 ## Introduction ##
 This application is used with Spring Boot,REST API and Security. 
-## What you'll need
-* JDK 1.8 or later
+
+## Requirements ##
 * Maven 3.0+
 * MySQL 5.6 or later
-* Spring Boot 
+* JDK 1.8 or later
+* Spring Boot 1.3
 
-## Summary ##
+## Modules ##
 * `model`: Implementation of entity object response to DB (1 to manay)
-* `restapi`: REST API web
+* `restapi`: RESTful Web Services
 * `security`: REST endpoints and web interface with Basic Authentication
 
-### Installation ##
+## Installation ##
 mvn package
 mvn install
 
-cd [rest|security]
+## Run Application ##
+cd DeptEmplManagement
+
 mvn spring-boot:run
 
